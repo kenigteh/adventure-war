@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_maps"
+            android:icon="@drawable/map"
+            android:title="Карта" />
+    </group>
+
+    <item android:title="Магазин">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_swards"
+                    android:icon="@drawable/attack"
+                    android:title="Мечи" />
+                <item
+                    android:id="@+id/menu_weapon"
+                    android:icon="@drawable/finns_hat"
+                    android:title="Вещи" />
+                <item
+                    android:id="@+id/menu_amulet"
+                    android:icon="@drawable/heavens"
+                    android:title="Барахло" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

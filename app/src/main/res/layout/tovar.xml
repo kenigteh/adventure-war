@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/back_orange">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Название товара"
+            android:textSize="30sp"
+            android:id="@+id/tovar_name"
+            android:gravity="center"
+            android:textColor="@color/vk_white"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/close"
+            android:id="@+id/close_btn"
+            android:layout_margin="5dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/back_color"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sward"
+                android:layout_weight="2"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tovar_img"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Описаникпкууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууууупкуууууууууу"
+                    android:textColor="@color/vk_black"
+                    android:id="@+id/tovar_descrip"/>
+                <RelativeLayout
+                    android:id="@+id/type_cont"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Купить"
+            android:id="@+id/by_but"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

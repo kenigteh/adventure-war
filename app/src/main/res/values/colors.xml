@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="snuff">#bdc3c7</color>
+    <color name="viol">#F1BC2E</color>
+    <color name="pochti_cherniy">#212121</color>
+    <color name="nu_takoi_polu_fioletoviy">#BA68C8</color>
+    <color name="blue">#2397D4</color>
+    <color name="half_orange">#FFB300</color>
+    <color name="back_orange">#ef901c</color>
+    <color name="deep_purple">#673AB7</color>
+    <color name="back_color">#d4d4d4</color>
+    <color name="yellow">#F6E62F</color>
+
+    <color name="P_Main">#2196f3</color>
+    <color name="P_Light">#6ec6ff</color>
+    <color name="P_Dark">#0069c0</color>
+
+    <color name="S_Main">#ffc107</color>
+    <color name="S_Light">#fff350</color>
+    <color name="S_Dark">#c79100</color>
+
+    <color name="m_Red">#F44336</color>
+    <color name="m_Pink">#E91E63</color>
+    <color name="m_Purple">#9C27B0</color>
+    <color name="m_Deep_Purple">#673AB7</color>
+    <color name="m_Indigo">#3F51B5</color>
+    <color name="m_Blue">#2196F3</color>
+    <color name="m_Cyan">#00BCD4</color>
+    <color name="m_Teal">#009688</color>
+    <color name="m_Green">#4CAF50</color>
+    <color name="m_Light_Green">#8BC34A</color>
+    <color name="m_Lime">#CDDC39</color>
+    <color name="m_Yellow">#FFEB3B</color>
+    <color name="m_Amber">#FFC107</color>
+    <color name="m_Orange">#FF9800</color>
+    <color name="m_Deep_Orange">#FF5722</color>
+    <color name="m_Brown">#795548</color>
+    <color name="m_Grey">#9E9E9E</color>
+    <color name="m_Blue_grey">#607D8B</color>
+
+    <color name="Black">#000000</color>
+    <color name="White">#FFFFFF</color>
+
+</resources>

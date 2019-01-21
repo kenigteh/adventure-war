@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Adventure War</string>
+    <string name="choose_character_text">Выберите персонажа:</string>
+    <string name="name_princes">Это Принцесса Жвачка</string>
+    <string name="name_finn">"Это Финн</string>
+    <string name="name_jake">Это Джейк</string>
+
+    <string name="Finn_description">Финн - мальчик герой. Является единствнным человек в землях "УУУ". Хорошо умеет обращаться с мечом. Служит королеве Жвачке вместе со своим братом и является глвным героем этой вселенной.</string>
+    <string name="Jake_description">Джейк - волшебная собака. Умеет растягиваться да любых размеров. Очень веселый. Хорошо играет на скрипке.</string>
+    <string name="Princes_description">Жвачка - прицесса волшебница. Королева земель "УУУ". Является одним из 5 элементалей: сладостей. Имеет верных подданных. А также является отличным ученым.</string>
+
+    <string name="health_points">0</string>
+    <string name="attack_points">0</string>
+    <string name="energy_points">0</string>
+    <string name="level_points">0</string>
+
+    <integer name="com_vk_sdk_AppId">5934386</integer>
+</resources>

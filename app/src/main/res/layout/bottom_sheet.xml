@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/P_Light"
+    android:orientation="vertical"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="80dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/S_Main"
+        android:id="@+id/main_table"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/current_character_name"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="63sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:typeface="normal"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/hp_img"
+                android:src="@drawable/hp"
+
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+                />
+
+            <TextView
+                android:id="@+id/hp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="7dp"
+                android:text="@string/health_points"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+
+            <ImageView
+                android:id="@+id/dmg_img"
+                android:src="@drawable/attack"
+
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/dmg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="7dp"
+                android:text="@string/health_points"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:typeface="normal"/>
+        </TableRow>
+        <TableRow>
+            <ImageView
+                android:id="@+id/gold"
+                android:src="@drawable/gold"
+
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/energy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="7dp"
+                android:text="@string/health_points"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                />
+
+
+
+            <ImageView
+
+                android:src="@drawable/mana"
+
+                android:layout_width="10dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+
+                android:id="@+id/lvl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="7dp"
+                android:text="@string/health_points"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:typeface="normal"/>
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ActivityFighting"
+    android:orientation="vertical"
+    android:background="@color/viol">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дом на дереве"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:padding="4dp"
+        android:id="@+id/location"
+        android:textColor="@color/deep_purple"
+        android:textStyle="italic|bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3.3"
+        android:background="@drawable/fin_house_fon"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/jake"
+            android:layout_weight="1"
+            android:id="@+id/my_pers"
+            android:layout_marginLeft="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5">
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/mon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ice_king"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/deep_purple">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="20dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="3dp"
+                android:src="@drawable/attack" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="3dp"
+                android:id="@+id/herodmg"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="3dp"
+                android:src="@drawable/hp" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="3dp"
+                android:id="@+id/herohp"/>
+        </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/attack"
+                android:padding="3dp"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="3dp"
+                android:id="@+id/monsterdmg"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/hp"
+                android:padding="3dp"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="3dp"
+                android:id="@+id/monsterhp"/>
+
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="@drawable/bimo_fon">
+
+        <ImageView
+            android:id="@+id/move"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/galka"
+            android:layout_marginEnd="30dp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/imageView2" />
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="60dp"
+            android:src="@drawable/clock"
+            android:id="@+id/imageView2"
+            android:layout_marginBottom="24dp"
+            android:layout_alignBottom="@+id/move"
+            android:layout_toStartOf="@+id/swips" />
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="60dp"
+            android:src="@drawable/buttons"
+            android:id="@+id/imageView3"
+            android:layout_alignTop="@+id/move"
+            android:layout_toEndOf="@+id/move"
+            android:layout_marginTop="21dp" />
+
+        <TextView
+            android:id="@+id/swips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="23dp"
+            android:text="!"
+            android:textColor="@color/yellow"
+            android:textSize="60sp"
+            android:layout_alignTop="@+id/imageView3"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="!"
+            android:textColor="@color/yellow"
+            android:textSize="60sp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_toEndOf="@+id/imageView2" />
+
+    </RelativeLayout>
+
+</LinearLayout>

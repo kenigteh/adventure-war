@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/map"
+            tools:context="lakercompany.adventure_war.Fragments.MapsActivity"
+            android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/loction_button"
+            android:layout_margin="20dp"
+            android:id="@+id/posBut"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/records_ico"
+            android:layout_margin="20dp"
+            android:id="@+id/records"
+            android:layout_alignParentLeft="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:background="@color/m_Grey">
+<TableRow
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/P_Main">
+    <TextView
+        android:padding="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Имя:"
+        android:textSize="30sp"
+        android:textStyle="normal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:maxLength="6"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:maxLength="20"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"/>
+</TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/P_Main">
+
+        <TextView
+            android:padding="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Возраст:"
+            android:textSize="30sp"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/age"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:inputType="number"
+        android:maxLength="3"/>
+    </TableRow>
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/S_Dark"
+        android:gravity="center"
+
+        >
+        <Button
+            android:padding="9dp"
+            android:text="Выбрать"
+            android:textColor="@color/Black"
+            android:background="@color/S_Main"
+            android:id="@+id/button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    </RelativeLayout>
+</TableLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/choose_table"
+    android:background="@color/half_orange"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    >
+    <TableRow
+        android:id="@+id/choose_character_column_txt"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@color/P_Dark"
+        >
+
+        <TextView
+            android:id="@+id/chooser_character_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:gravity="left"
+
+            android:text="@string/choose_character_text"
+            android:textColor="@color/White"
+            android:textSize="30sp"
+            android:padding="17sp"
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/choose_character_column_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:background="@color/P_Main"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp"
+        >
+
+        <ImageView
+            android:layout_height="130dp"
+            android:src="@drawable/finn_ico"
+            android:id="@+id/finn" />
+
+        <ImageView
+            android:layout_height="match_parent"
+            android:src="@drawable/jake_ico"
+            android:id="@+id/jake" />
+
+        <ImageView
+            android:layout_height="match_parent"
+            android:src="@drawable/princes_ico"
+            android:id="@+id/princes" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/S_Main">
+        <TextView
+            android:layout_span="3"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_finn"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:textColor="@color/Black"
+            android:id="@+id/hero"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:background="@color/P_Dark">
+        <ScrollView
+            android:layout_span="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+            <TextView
+
+                android:background="@color/P_Main"
+                android:padding="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="27sp"
+                android:textColor="@color/White"
+                android:text="@string/Finn_description"
+                android:id="@+id/description"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        </ScrollView>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+
+            android:text="Выбрать"
+            android:layout_span="3"
+            android:src="@drawable/button"
+            android:textColor="@color/Black"
+            android:background="@color/S_Main"
+            android:textSize="19sp"
+            android:id="@+id/button"/>
+    </TableRow>
+
+
+</TableLayout>
